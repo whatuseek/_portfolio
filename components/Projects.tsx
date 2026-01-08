@@ -284,7 +284,9 @@ import { PROJECTS } from "../constants";
 const Projects: React.FC = () => {
   const isVideoLink = (url?: string) =>
     !!url &&
-    ["youtube", "youtu.be", "loom", "vimeo", "drive.google.com"].some((p) =>
+    ["youtube", "youtu.be", "loom", "vimeo", "drive.google.com","screenpal",".mp4",
+    ".webm",
+    ".ogg",].some((p) =>
       url.includes(p)
     );
 
@@ -540,7 +542,7 @@ const ProjectCard: React.FC<{ project: any; isVideo: boolean }> = ({
             href={project.demoLink}
             target="_blank"
           >
-            {isVideo ? "Watch Demo" : "Live Preview"}
+            {isVideo ? "Watch" : "Preview"}
           </Button>
 
           <Button
@@ -550,7 +552,7 @@ const ProjectCard: React.FC<{ project: any; isVideo: boolean }> = ({
             href={project.githubLink}
             target="_blank"
           >
-            Source Code
+            Code
           </Button>
         </Box>
       </Box>
