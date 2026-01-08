@@ -1,105 +1,102 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Aspiring Frontend Developer</title>
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Tailwind Config -->
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-            colors: {
-              primary: {
-                50: '#f0f9ff',
-                100: '#e0f2fe',
-                500: '#0ea5e9',
-                600: '#0284c7',
-                700: '#0369a1',
-              },
-              slate: {
-                850: '#1e293b',
-                900: '#0f172a',
-              },
-              stormy_teal: {
-                200: '#2C3E50',
-                300: '#465F75',
-                500: '#1A252F',
-              },
-              pearl_aqua: {
-                300: '#BFEFE8',
-                400: '#88D8C0',
-                500: '#5DBFA7',
-              },
-              alice_blue: {
-                700: '#D2E9F2',
-                800: '#E1F0F7',
-                900: '#F0F8FF',
-              }
-            }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thaika</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
           },
+          colors: {
+            primary: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+            },
+            slate: {
+              850: '#1e293b',
+              900: '#0f172a',
+            },
+            stormy_teal: {
+              200: '#2C3E50',
+              300: '#465F75',
+              500: '#1A252F',
+            },
+            pearl_aqua: {
+              300: '#BFEFE8',
+              400: '#88D8C0',
+              500: '#5DBFA7',
+            },
+            alice_blue: {
+              700: '#D2E9F2',
+              800: '#E1F0F7',
+              900: '#F0F8FF',
+            }
+          }
         },
-      }
-    </script>
+      },
+    }
+  </script>
 
-    <style>
-  :root {
-    scroll-padding-top: 100px;
-  }
+  <style>
+    :root {
+      scroll-padding-top: 100px;
+    }
 
-  html {
-    height: auto;
-    overflow-y: scroll;
-  }
+    html {
+      height: auto;
+      overflow-y: scroll;
+    }
 
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100vh;
-  }
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100vh;
+    }
 
-  /* ✅ Scoped transitions (NO global *) */
-  body,
-  header,
-  section,
-  footer,
-  button {
-    transition: background-color 0.25s ease,
-                border-color 0.25s ease,
-                color 0.25s ease;
-  }
+    /* ✅ Scoped transitions (NO global *) */
+    body,
+    header,
+    section,
+    footer,
+    button {
+      transition: background-color 0.25s ease,
+        border-color 0.25s ease,
+        color 0.25s ease;
+    }
 
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
 
-  ::-webkit-scrollbar-thumb {
-    background: #cbd5e1;
-    border-radius: 10px;
-  }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 10px;
+    }
 
-  .dark ::-webkit-scrollbar-thumb {
-    background: #334155;
-  }
-</style>
+    .dark ::-webkit-scrollbar-thumb {
+      background: #334155;
+    }
+  </style>
 
 
   <script type="importmap">
@@ -119,16 +116,18 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-alice_blue-900 text-stormy_teal-200 dark:bg-stormy_teal-500 dark:text-alice_blue-900 no-transitions">
-    <div id="root"></div>
-    <!-- Entry point for the application -->
-    <script type="module" src="/index.tsx"></script>
-    <script>
-      window.addEventListener('load', () => {
-        document.body.classList.remove('no-transitions');
-      });
-    </script>
-  </body>
+
+<body class="bg-alice_blue-900 text-stormy_teal-200 dark:bg-stormy_teal-500 dark:text-alice_blue-900 no-transitions">
+  <div id="root"></div>
+  <!-- Entry point for the application -->
+  <script type="module" src="/index.tsx"></script>
+  <script>
+    window.addEventListener('load', () => {
+      document.body.classList.remove('no-transitions');
+    });
+  </script>
+</body>
+
 </html>
