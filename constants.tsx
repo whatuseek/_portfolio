@@ -45,9 +45,10 @@ export const PERSONAL_INFO = {
    */
   // profileImage: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop",
   // profileImage: "https://i.postimg.cc/xyz/profile.png",
+  profileImage: "https://i.postimg.cc/cHwrHrKy/profile.png",
 
   // For later use in VS Code:
-  profileImage: "/profile.jpg",
+  // profileImage: "/profile.jpg",
 };
 
 // My Story
