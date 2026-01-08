@@ -1,0 +1,6 @@
+INSTRUCTIONS:
+1. Place your profile picture here and name it 'profile.jpg' (or update constants.tsx to match your filename).
+2. Place your project screenshots here.
+3. Update the paths in 'constants.tsx' to match the filenames you use.
+
+Example: If you add 'my-photo.png', change 'profileImage' in constants.tsx to './assets/images/my-photo.png'.

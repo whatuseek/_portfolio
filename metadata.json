@@ -1,0 +1,7 @@
+{
+  "name": "Portfolio_dev",
+  "version": "1.0.0-stable",
+  "architecture": "Static ESM (Importmap)",
+  "description": "v1.0.0 Stable Baseline. A professional, clean, and responsive portfolio designed for a career switcher moving from Customer Support to Frontend Development. Features dark mode, animations, and clear project showcases.",
+  "requestFramePermissions": []
+}
