@@ -19,7 +19,7 @@ import SendIcon from "@mui/icons-material/Send";
 // ✏️ 1. HERO SECTION & GENERAL INFO
 // =============================================================================
 export const PERSONAL_INFO = {
-  name: "Mr DOE",
+  name: "Thaika Soofi",
   role: "Aspiring Frontend Developer (React)",
 
   heroOverline: "ASPIRING FRONTEND ENGINEER",
@@ -236,18 +236,18 @@ export const PROJECTS: Project[] = [
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
-    role: "Customer Support Associate – Internet & Cable TV Services",
-    company: "ART Media Networks – Fiber-Net & Cable TV Service Provider",
-    period: "2023 - 2025",
-    description:
-      "Providing technical support for fiber internet and cable TV services. Handled troubleshooting for connectivity issues and managed customer service requests. This frontline experience directly informed my understanding of the operational gaps that I later addressed through learning-based software projects.",
-  },
-  {
-    role: "Frontend Development Trainee",
-    company: "ART Media Networks – Fiber-Net & Cable TV Service Provider",
+    role: "Frontend Development",
+    company: "SMART Media Networks",
     period: "2024 - 2025",
     description:
       "Developed a learning-based internal ticketing tool using React and Tailwind CSS as part of a self-paced technical development path. Utilized AI tools as a supportive learning companion to navigate complex logic, while focusing on building a clean, responsive, and user-centric interface for the support team.",
+  },
+  {
+    role: "Customer Support Associate – Internet & Cable TV Services",
+    company: "SMART Media Networks",
+    period: "2023 - 2025",
+    description:
+      "Providing technical support for fiber internet and cable TV services. Handled troubleshooting for connectivity issues and managed customer service requests. This frontline experience directly informed my understanding of the operational gaps that I later addressed through learning-based software projects.",
   },
 ];
 
@@ -263,22 +263,22 @@ export const CONTACT_INFO = {
 export const CONTACT_LINKS: ContactLink[] = [
   {
     label: "Email",
-    href: "mailto:xyz@gmail.com",
+    href: "mailto:soofigsoofi@gmail.com",
     icon: <EmailIcon />,
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/xyz/",
+    href: "https://www.linkedin.com/in/thaika-soofi/",
     icon: <LinkedInIcon />,
   },
   {
     label: "GitHub",
-    href: "https://github.com/xyz",
+    href: "https://github.com/whatuseek",
     icon: <GitHubIcon />,
   },
   {
     label: "Phone",
-    href: "tel:+198765432",
+    href: "tel:+918220016819",
     icon: <PhoneIcon />,
   },
 ];
