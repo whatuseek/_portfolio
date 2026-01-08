@@ -47,7 +47,7 @@ export const PERSONAL_INFO = {
   // profileImage: "https://i.postimg.cc/xyz/profile.png",
 
   // For later use in VS Code:
-  profileImage: "./assets/images/profile.jpg",
+  profileImage: "/profile.jpg",
 };
 
 // My Story
@@ -132,7 +132,7 @@ export const ABOUT_ME_SECTIONS = [
     icon: "growth",
     title: "Future Growth",
     text: "I am a committed learner who enjoys building, experimenting, and improving step by step. I am seeking an opportunity in a growth-oriented environment where I can learn from experienced developers, strengthen my frontend skills, and contribute by building practical, user-focused web applications.",
-  }, 
+  },
 ];
 
 export const ABOUT_ME = ABOUT_ME_SECTIONS.map((s) => s.text).join("\n\n");
@@ -236,16 +236,14 @@ export const PROJECTS: Project[] = [
 export const EXPERIENCE: ExperienceItem[] = [
   {
     role: "Customer Support Associate – Internet & Cable TV Services",
-    company:
-      "ART Media Networks – Fiber-Net & Cable TV Service Provider",
+    company: "ART Media Networks – Fiber-Net & Cable TV Service Provider",
     period: "2023 - 2025",
     description:
       "Providing technical support for fiber internet and cable TV services. Handled troubleshooting for connectivity issues and managed customer service requests. This frontline experience directly informed my understanding of the operational gaps that I later addressed through learning-based software projects.",
   },
   {
     role: "Frontend Development Trainee",
-    company:
-      "ART Media Networks – Fiber-Net & Cable TV Service Provider",
+    company: "ART Media Networks – Fiber-Net & Cable TV Service Provider",
     period: "2024 - 2025",
     description:
       "Developed a learning-based internal ticketing tool using React and Tailwind CSS as part of a self-paced technical development path. Utilized AI tools as a supportive learning companion to navigate complex logic, while focusing on building a clean, responsive, and user-centric interface for the support team.",
