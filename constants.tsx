@@ -211,7 +211,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Internal Ticket Management System",
     description:
-      "This project was inspired by my experience working as a Customer Support Associate in Internet and Cable TV services, where issue tracking was mostly manual and fragmented. To address this, I built a learning-based internal ticket management system that allows support teams to log issues, track ticket status, and maintain visibility across ongoing tasks, helping reduce confusion and manual follow-ups.",
+      "This project was inspired by my experience working as a Support Associate in Internet and Cable TV services, where issue tracking was mostly manual and fragmented. To address this, I built a learning-based internal ticket management system that allows support teams to log issues, track ticket status, and maintain visibility across ongoing tasks, helping reduce confusion and manual follow-ups.",
     features: [
       "Ticket creation with mandatory customer details",
       "Status tracking (Open, In Progress, Resolved)",
@@ -244,7 +244,7 @@ export const EXPERIENCE: ExperienceItem[] = [
       "Developed a learning-based internal ticketing tool using React and Tailwind CSS as part of a self-paced technical development path. Utilized AI tools as a supportive learning companion to navigate complex logic, while focusing on building a clean, responsive, and user-centric interface for the support team.",
   },
   {
-    role: "Customer Support Associate – Internet & Cable TV Services",
+    role: "Support Associate – Internet & Cable TV Services",
     company: "SMART Media Networks",
     period: "2023 - 2025",
     description:
