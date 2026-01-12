@@ -31,7 +31,8 @@ export const PERSONAL_INFO = {
     "Building practical, user-centric web interfaces using React, inspired by real-world experience in Internet & Cable TV customer operations.",
 
   // To use a local resume, save your PDF as 'resume.pdf' in the root or assets folder
-  resumeLink: "/thaika soofi ch_.pdf",
+  // resumeLink: "/thaika soofi ch_.pdf",
+  resumeLink: "/public/thaika soofi_dev.pdf",
 
   /**
    * 🖼️ PROFILE IMAGE CONFIGURATION
